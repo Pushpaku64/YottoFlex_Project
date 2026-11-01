@@ -1,0 +1,9 @@
+run_id,source_file,line_no,reason,raw_record
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,2,missing_customer_id,"{""txn_id"": ""T20261004000000"", ""customer_id"": null, ""amount"": ""27.97"", ""status"": ""completed"", ""event_ts"": ""2026-10-04T03:45:22Z""}"
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,3,invalid_amount,"{""txn_id"": ""T20261004000001"", ""customer_id"": ""C00282"", ""amount"": ""abc"", ""status"": ""completed"", ""event_ts"": ""2026-10-04T14:37:17Z""}"
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,4,negative_amount,"{""txn_id"": ""T20261004000002"", ""customer_id"": ""C00400"", ""amount"": ""-5.00"", ""status"": ""completed"", ""event_ts"": ""2026-10-04T10:04:25Z""}"
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,5,invalid_status,"{""txn_id"": ""T20261004000003"", ""customer_id"": ""C00425"", ""amount"": ""42.99"", ""status"": ""unknown"", ""event_ts"": ""2026-10-04T00:56:00Z""}"
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,6,invalid_event_ts,"{""txn_id"": ""T20261004000004"", ""customer_id"": ""C00159"", ""amount"": ""3.76"", ""status"": ""completed"", ""event_ts"": ""not-a-date""}"
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,7,unknown_customer,"{""txn_id"": ""T20261004000005"", ""customer_id"": ""C99999"", ""amount"": ""67.64"", ""status"": ""refunded"", ""event_ts"": ""2026-10-04T13:33:30Z""}"
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,1002,duplicate_txn_id,"{""txn_id"": ""T20261004000007"", ""customer_id"": ""C00431"", ""amount"": ""77.01"", ""status"": ""refunded"", ""event_ts"": ""2026-10-04T19:56:20Z""}"
+run_20261031T140813932011_66e756,sample_data\day4_dirty.csv,8,malformed_row,"T20261004000006,C00092,20.46"
