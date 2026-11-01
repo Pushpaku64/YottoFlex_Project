@@ -1,9 +1,0 @@
-line_no,expected_reason
-2,missing_customer_id
-3,invalid_amount
-4,negative_amount
-5,invalid_status
-6,invalid_event_ts
-7,unknown_customer
-8,malformed_row
-1002,duplicate_txn_id
