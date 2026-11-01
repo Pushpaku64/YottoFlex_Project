@@ -1,5 +1,0 @@
-run_id,rule,column_name,message
-run_20261031T140813850330_bbb01f,amount_mean_shift,amount,amount: mean moved from 47.29 to 101.09 (+1.06 baseline std).
-run_20261031T140813850330_bbb01f,status_mix_change,status,status 'completed' went from 75.7% to 50.1% of rows.
-run_20261031T140813850330_bbb01f,status_mix_change,status,status 'failed' went from 7.4% to 32.4% of rows.
-run_20261031T140814020905_da4d9a,stale_data,event_ts,Newest event is 73.0h old (limit 24h); newest = 2026-10-02T23:57:58Z.
